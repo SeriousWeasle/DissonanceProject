@@ -1,0 +1,7 @@
+class ShotgunSpawner : RandomSpawner replaces shotgun
+{
+    Default
+    {
+        DropItem "ws_shotgun", 255, 1;
+    }
+}

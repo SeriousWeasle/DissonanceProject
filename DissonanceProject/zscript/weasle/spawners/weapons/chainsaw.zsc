@@ -1,0 +1,7 @@
+class ChainsawSpawner : RandomSpawner replaces chainsaw
+{
+    Default
+    {
+        DropItem "ws_chainsaw", 255, 1;
+    }
+}

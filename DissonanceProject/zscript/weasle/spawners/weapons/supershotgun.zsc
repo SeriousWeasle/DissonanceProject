@@ -1,0 +1,7 @@
+class SuperShotgunSpawner : RandomSpawner replaces supershotgun
+{
+    Default
+    {
+        DropItem "ws_supershotgun", 255, 1;
+    }
+}

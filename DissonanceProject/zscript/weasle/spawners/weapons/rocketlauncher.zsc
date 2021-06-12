@@ -1,0 +1,7 @@
+class RocketLauncherSpawner : RandomSpawner replaces rocketlauncher
+{
+    Default
+    {
+        DropItem "ws_rocketlauncher", 255, 1;
+    }
+}

@@ -1,0 +1,7 @@
+class BFG9000Spawner : RandomSpawner replaces bfg9000
+{
+    Default
+    {
+        DropItem "ws_bfg9000", 255, 1;
+    }
+}

@@ -1,0 +1,19 @@
+version "2.4.0"
+
+//Overridden vanilla weapons
+#include "zscript/weasle/vanilla/weapons.zsc"
+
+//Items - Ammo
+#include "zscript/weasle/ammo/shells.zsc"
+
+//Object spawning - ammo
+#include "zscript/weasle/spawners/ammo/shells.zsc"
+
+//Object spawning - weapons
+#include "zscript/weasle/spawners/weapons/bfg9000.zsc"
+#include "zscript/weasle/spawners/weapons/chaingun.zsc"
+#include "zscript/weasle/spawners/weapons/chainsaw.zsc"
+#include "zscript/weasle/spawners/weapons/plasmarifle.zsc"
+#include "zscript/weasle/spawners/weapons/rocketlauncher.zsc"
+#include "zscript/weasle/spawners/weapons/shotgun.zsc"
+#include "zscript/weasle/spawners/weapons/supershotgun.zsc"

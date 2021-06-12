@@ -1,0 +1,80 @@
+class ws_bfg9000 : bfg9000
+{
+    Default
+    {
+        Weapon.SlotNumber 7;
+        Inventory.PickupMessage "Picked up a BFG-9000";
+        Weapon.AmmoUse 40;
+        Weapon.AmmoGive 160;
+        Weapon.AmmoType "Cell";
+    }
+}
+
+class ws_minigun : chaingun
+{
+    Default
+    {
+        Weapon.SlotNumber 4;
+        Inventory.PickupMessage "Picked up a minigun chambered in 9 mm";
+        Weapon.AmmoUse 1;
+        Weapon.AmmoGive 20;
+        Weapon.AmmoType "Clip";
+    }
+}
+
+class ws_chainsaw : chainsaw
+{
+    Default
+    {
+        Weapon.SlotNumber 1;
+        Inventory.PickupMessage "Picked up a chainsaw";
+    }
+}
+
+class ws_plasmarifle : plasmarifle
+{
+    Default
+    {
+        Weapon.SlotNumber 6;
+        Inventory.PickupMessage "Picked up a plasma rifle";
+        Weapon.AmmoUse 1;
+        Weapon.AmmoGive 80;
+        Weapon.AmmoType "Cell";
+    }
+}
+
+class ws_rocketlauncher : rocketlauncher
+{
+    Default
+    {
+        Weapon.SlotNumber 5;
+        Inventory.PickupMessage "Picked up a rocket launcher";
+        Weapon.AmmoUse 1;
+        Weapon.AmmoGive 5;
+        Weapon.AmmoType "RocketAmmo";
+    }
+}
+
+class ws_shotgun : shotgun
+{
+    Default
+    {
+        Weapon.SlotNumber 3;
+        Inventory.PickupMessage "Picked up a 12 gauge pump-action shotgun";
+        Weapon.AmmoUse 1;
+        Weapon.AmmoGive 8;
+        Weapon.AmmoType "ws_12gaugeshell";
+    }
+}
+
+class ws_supershotgun : supershotgun
+{
+    Default
+    {
+        Weapon.SlotNumber 3;
+        Inventory.PickupMessage "Picked up a 12 gauge double-barreled shotgun";
+        Weapon.AmmoUse 2;
+        Weapon.AmmoGive 16;
+        Weapon.AmmoType "ws_12gaugeshell";
+    }
+}

@@ -1,0 +1,83 @@
+class ws_12gaugeshell : ammo
+{
+    Default
+    {
+        Inventory.PickupMessage "Picked up the concept of a 12 gauge shell (if you see this the code is borked)";
+        Inventory.Amount 1;
+        Inventory.MaxAmount 200;
+        Ammo.BackpackAmount 16;
+        Ammo.BackpackMaxAmount 400;
+        Inventory.Icon "SHELA0";
+    }
+
+    States
+    {
+        Spawn:
+            TNT0 A -1;
+            Stop;
+    }
+}
+
+class ws_12gaugeshell4 : ws_12gaugeshell
+{
+    Default
+    {
+        Inventory.PickupMessage "[+4 Shells(12ga)] Picked up 4 12 gauge shells";
+        Inventory.Amount 4;
+    }
+
+    States
+    {
+        Spawn:
+            SHEL A -1;
+            Stop;
+    }
+}
+
+class ws_12gaugeshell3 : ws_12gaugeshell
+{
+    Default
+    {
+        Inventory.PickupMessage "[+3 Shells(12ga)] Picked up 3 12 gauge shells";
+        Inventory.Amount 3;
+    }
+
+    States
+    {
+        Spawn:
+            SHEL B -1;
+            Stop;
+    }
+}
+
+class ws_12gaugeshell2 : ws_12gaugeshell
+{
+    Default
+    {
+        Inventory.PickupMessage "[+2 Shells(12ga)] Picked up 2 12 gauge shells";
+        Inventory.Amount 2;
+    }
+
+    States
+    {
+        Spawn:
+            SHEL C -1;
+            Stop;
+    }
+}
+
+class ws_12gaugeshell1 : ws_12gaugeshell
+{
+    Default
+    {
+        Inventory.PickupMessage "[+1 Shells(12ga)] Picked up a single 12 gauge shell";
+        Inventory.Amount 1;
+    }
+
+    States
+    {
+        Spawn:
+            SHEL D -1;
+            Stop;
+    }
+}

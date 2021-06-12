@@ -1,0 +1,7 @@
+class PlasmaRifleSpawner : RandomSpawner replaces plasmarifle
+{
+    Default
+    {
+        DropItem "ws_plasmarifle", 255, 1;
+    }
+}

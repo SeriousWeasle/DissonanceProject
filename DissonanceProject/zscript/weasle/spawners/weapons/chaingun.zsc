@@ -1,0 +1,7 @@
+class ChaingunSpawner : RandomSpawner replaces chaingun
+{
+    Default
+    {
+        DropItem "ws_minigun", 255, 1;
+    }
+}

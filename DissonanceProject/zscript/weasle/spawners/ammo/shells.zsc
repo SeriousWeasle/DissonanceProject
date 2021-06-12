@@ -1,0 +1,10 @@
+class ShellSpawner : RandomSpawner replaces shell
+{
+    Default
+    {
+        DropItem "ws_12gaugeshell4", 255, 4;
+        DropItem "ws_12gaugeshell3", 255, 3;
+        DropItem "ws_12gaugeshell2", 255, 2;
+        DropItem "ws_12gaugeshell1", 255, 1;
+    }
+}
