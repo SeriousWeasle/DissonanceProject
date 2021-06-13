@@ -15,10 +15,10 @@ class ws_minigun : chaingun
     Default
     {
         Weapon.SlotNumber 4;
-        Inventory.PickupMessage "Picked up a minigun chambered in 9 mm";
+        Inventory.PickupMessage "Picked up a minigun chambered in 9mm";
         Weapon.AmmoUse 1;
         Weapon.AmmoGive 20;
-        Weapon.AmmoType "Clip";
+        Weapon.AmmoType "ws_bullets9mm";
     }
 }
 
@@ -28,6 +28,15 @@ class ws_chainsaw : chainsaw
     {
         Weapon.SlotNumber 1;
         Inventory.PickupMessage "Picked up a chainsaw";
+    }
+}
+
+class ws_pistol : pistol replaces pistol
+{
+    Default
+    {
+        Weapon.SlotNumber 2;
+        Weapon.AmmoType "ws_bullets9mm";
     }
 }
 

@@ -1,0 +1,10 @@
+class TestPlayer : DoomPlayer
+{
+    Default
+    {
+        Player.DisplayName "Doomguy";
+        Player.StartItem "ws_pistol";
+        Player.StartItem "ws_bullets9mm", 100;
+        Player.StartItem "fist";
+    }
+}

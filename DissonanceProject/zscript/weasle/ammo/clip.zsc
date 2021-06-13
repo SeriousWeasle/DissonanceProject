@@ -1,0 +1,35 @@
+class ws_bullets9mm : ammo
+{
+    Default
+    {
+        Inventory.PickupMessage "Picked up the concept of bullet ammo (something has gone wrong somewhere in the code)";
+        Inventory.Amount 1;
+        Inventory.MaxAmount 1000;
+        Ammo.BackpackAmount 25;
+        Ammo.BackpackMaxAmount 2000;
+        Inventory.Icon "CLIPA0";
+    }
+
+    States
+    {
+        Spawn:
+            TNT0 A -1;
+            Stop;
+    }
+}
+
+class ws_9mmClip : ws_bullets9mm
+{
+    Default
+    {
+        Inventory.PickupMessage "[+25 Bullets (9mm)] Picked up a 9mm clip";
+        Inventory.Amount 25;
+    }
+
+    States
+    {
+        Spawn:
+            CLIP A -1;
+            Stop;
+    }
+}

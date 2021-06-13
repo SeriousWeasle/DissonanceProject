@@ -4,9 +4,14 @@ version "2.4.0"
 #include "zscript/weasle/vanilla/weapons.zsc"
 
 //Items - Ammo
+#include "zscript/weasle/ammo/clip.zsc"
 #include "zscript/weasle/ammo/shells.zsc"
 
+//player stuff
+#include "zscript/weasle/player/testclass.zsc"
+
 //Object spawning - ammo
+#include "zscript/weasle/spawners/ammo/bullets.zsc"
 #include "zscript/weasle/spawners/ammo/shells.zsc"
 
 //Object spawning - weapons

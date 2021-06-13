@@ -1,0 +1,7 @@
+class BulletSpawner : RandomSpawner replaces clip
+{
+    Default
+    {
+        DropItem "ws_9mmClip", 255, 1;
+    }
+}
